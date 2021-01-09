@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Kavivanar&family=Open+Sans:ital@1&display=swap');
+
+body {
+    background-image: url("minion.jpg") ;
+    background-repeat: repeat;
+    background-size: auto;
+    background-blend-mode: screen;
+    /* font-family: 'Bilbo', cursive; */
+    font-family: 'Kavivanar', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin: 0px
+
+}
+
+.all {
+    
+    max-width: 600px;
+    margin: auto;
+}
+
+:root{
+    --primary-color: rgb(242 201 76);
+} 
+
+.heading{
+    margin:auto;
+    text-align:center;
+    font-size: 3rem; 
+    padding: 1rem 3rem;
+    background-color: var(--primary-color);
+}
+textarea {
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    display: block; 
+    padding: 2rem 1rem;
+}
+
+#output {
+    background-color:white;
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    font-size: large;
+    color: black;
+    border: 0rem;
+    /* display: block; */
+    max-width: 150px;
+    margin: 3rem 2rem 2rem 0rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem ; 
+    text-align: center;
+    color: black;
+    font-size: medium;
+    
+}
